@@ -5,13 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Education</title>
     <link rel="stylesheet" href="style.css">
-    
+
     <style>
         body {
-            font-family: Arial, sans-serif;
-            font-size: 12pt
-            margin: 20px;
-        }
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    margin: 20px;
+    background-color: #a9a9a9e4;
+    color: #4c4646; 
+}
+/* Heading Styles */
+h1 {
+    font-size: 24pt;
+    color: #0066cc; /* H1 color */
+}
+
+h2 {
+    font-size: 18pt;
+    color: #990000; /* H2 color */
+}
+
+h3 {
+    font-size: 16pt;
+    color: #336600; /* H3 color */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 12pt;
+    color: #555; /* Paragraph color */
+}
+
+/* Link Styles */
+a {
+    color: #cc0000; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f96b0cda; /* Hover color */
+}
+
+a:visited {
+    color: #623193; /* Visited link color */
+}
+
+a:active {
+    color: #990000; /* Active link color */
+}
+
+/* Table Styles */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.link-container, .description-container {
+    padding: 10px;
+}
+
+.table-link {
+    color: #003366;
+    text-decoration: none;
+}
+
+.table-link:hover {
+    text-decoration: underline;
+    color: #0066cc;
+}
+
+.table-link:active {
+    color: #ff0000;
+}
+
     </style>
 </head>
 <body>
@@ -57,10 +125,36 @@
         <p><strong>DECA:</strong> Helps foster knowledge and experience gained in and outside of Toronto Metropolitan University</p>
         <p><strong>Cybersecurity Training and Work Integrated Learning Program:</strong> Selected for this competitive, short-duration pilot that is geared to maximizing the number of underrepresented groups in the cybersecurity workforce</p>
     </section>
-        <footer>
-            <p>For more information about my educational background, please visit my <a href="https://www.linkedin.com/in/ragaviasokan/">LinkedIn profile</a>.</p>
+        <footer>
+            <p>For more information about my educational background, please visit my <a href="https://www.linkedin.com/in/ragaviasokan/">LinkedIn profile</a>.</p>
     </footer>
+
+    <table class="styled-table">
+        <tr>
+            <td>
+                <div class="link-container">
+                    <a href="#" class="table-link">Link 1 goes here</a>
+                </div>
+            </td>
+            <td>
+                <div class="description-container">
+                    Description of Link 1 goes in this cell
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="link-container">
+                    <a href="#" class="table-link">Link 2 goes here</a>
+                </div>
+            </td>
+            <td>
+                <div class="description-container">
+                    Description of Link 2 goes in this cell
+                </div>
+            </td>
+        </tr>
+    </table>
 
 </body>
 </html>
-

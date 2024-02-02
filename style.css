@@ -71,7 +71,7 @@ color: #0066cc;
 color: #ff0000;
 }
 
-
-.divclass { 
-    border: 2px solid black;  
+.link {
+    float: left;
+    border: 1px solid #000;
 }

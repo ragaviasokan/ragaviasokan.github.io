@@ -71,29 +71,20 @@ color: #0066cc;
 color: #ff0000;
 }
 
-<table class="styled-table">
-        <tr>
-            <td>
-                <div class="link-container">
-                    <a href="#" class="table-link">Link 1 goes here</a>
-                </div>
-            </td>
-            <td>
-                <div class="description-container">
-                    Description of Link 1 goes in this cell
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="link-container">
-                    <a href="#" class="table-link">Link 2 goes here</a>
-                </div>
-            </td>
-            <td>
-                <div class="description-container">
-                    Description of Link 2 goes in this cell
-                </div>
-            </td>
-        </tr>
-    </table>
+<div class="link-container">
+.divlink  {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin:20px;
+    padding: 20px;
+}
+
+.divtext  {
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin:20px;
+    padding: 20px;
+}
+<div class>

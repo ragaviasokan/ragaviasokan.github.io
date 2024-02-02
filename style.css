@@ -70,3 +70,30 @@ color: #0066cc;
 .table-link:active {
 color: #ff0000;
 }
+
+<table class="styled-table">
+        <tr>
+            <td>
+                <div class="link-container">
+                    <a href="#" class="table-link">Link 1 goes here</a>
+                </div>
+            </td>
+            <td>
+                <div class="description-container">
+                    Description of Link 1 goes in this cell
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="link-container">
+                    <a href="#" class="table-link">Link 2 goes here</a>
+                </div>
+            </td>
+            <td>
+                <div class="description-container">
+                    Description of Link 2 goes in this cell
+                </div>
+            </td>
+        </tr>
+    </table>

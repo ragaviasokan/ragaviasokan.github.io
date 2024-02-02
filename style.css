@@ -72,23 +72,6 @@ color: #ff0000;
 }
 
 
-.divlink  {
+.divclass { 
     border: 2px solid black;  
-    Link 1 goes here <br>;
-    Description of the link 1 goes in this cell
-
-}
-<div class="link-container">
-<a href="#" class="table-link">Link 1 goes here</a>
-</div>
-<div class="description-container">
-Description of Link 1 goes in this cell
-</div>
-
-<.divtext= "div-container"
-    Link 2 goes here <br>
-    Descriptionof the link 2 goes in this cell
-    </.divtext>
-.divtext  {
-    border: 2px solid black;2
 }

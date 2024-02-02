@@ -1,160 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Education</title>
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-    font-size: 12pt;
-    margin: 20px;
-    background-color: #a9a9a9e4;
-    color: #4c4646; 
+body {
+font-family: Arial, sans-serif;
+font-size: 12pt;
+margin: 20px;
+background-color: #a9a9a9e4;
+color: #4c4646; 
 }
 /* Heading Styles */
 h1 {
-    font-size: 24pt;
-    color: #0066cc; /* H1 color */
+font-size: 24pt;
+color: #0066cc; /* H1 color */
 }
 
 h2 {
-    font-size: 18pt;
-    color: #990000; /* H2 color */
+font-size: 18pt;
+color: #990000; /* H2 color */
 }
 
 h3 {
-    font-size: 16pt;
-    color: #336600; /* H3 color */
+font-size: 16pt;
+color: #336600; /* H3 color */
 }
 
 /* Paragraph Styles */
 p {
-    font-size: 12pt;
-    color: #555; /* Paragraph color */
+font-size: 12pt;
+color: #555; /* Paragraph color */
 }
 
 /* Link Styles */
 a {
-    color: #cc0000; /* Link color */
-    text-decoration: none;
+color: #cc0000; /* Link color */
+text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-    color: #f96b0cda; /* Hover color */
+text-decoration: underline;
+color: #f96b0cda; /* Hover color */
 }
 
 a:visited {
-    color: #623193; /* Visited link color */
+color: #623193; /* Visited link color */
 }
 
 a:active {
-    color: #990000; /* Active link color */
+color: #990000; /* Active link color */
 }
 
 /* Table Styles */
 .styled-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
 }
 
 .link-container, .description-container {
-    padding: 10px;
+padding: 10px;
 }
 
 .table-link {
-    color: #003366;
-    text-decoration: none;
+color: #003366;
+text-decoration: none;
 }
 
 .table-link:hover {
-    text-decoration: underline;
-    color: #0066cc;
+text-decoration: underline;
+color: #0066cc;
 }
 
 .table-link:active {
-    color: #ff0000;
+color: #ff0000;
 }
-
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Ragavi Asokan</h1>
-    </header>
-
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li><strong>High School:</strong> Fletcher's Meadow Secondary School, 2015-2019</li>
-            <li><strong>University:</strong>Toronto Metropolitan University, 2020-2024</li>
-    </section>
-
-    <section>
-        
-        <h3>Program: Bachelor of Commerce, Business Technology Management</h3>
-        <p>Throughout my university years, I gained knowledge on analyzing business needs. design appropriacte technology-based processes and solutions and communicate these effectively.</p>
-    </section>
-
-    <section>
-        <h2>Most Useful Course</h2>
-        <p> Throughout my Business Technology Management degree, some of the courses that was covered was:</p>
-        <ol>
-            <li>ITM 707: Strategy, Management and Acquisition</li>
-            <li>ITM 415: Business Process Management</li>
-            <li>ITM 750: IS Project Management</li>
-        </ol>
-        <p>One course that significantly impacted my understanding was "ITM 550: Advanced e-Business." This course taught me how to create an e-commerce website, and the important aspects that are needed when it comes to an e-commerce busienss.</p>
-    </section>
-
-    <section>
-        <h2>Educational Awards</h2>
-        <ul>
-            <li>Dean's List - Toronto Metropolitan University (2020-2021)</li>
-            <li>Ontario Scholorship Award - Fletcher's Meadow Secondary School (2019)</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Extra-Curricular Activities</h2>
-        <p><strong>DECA:</strong> Helps foster knowledge and experience gained in and outside of Toronto Metropolitan University</p>
-        <p><strong>Cybersecurity Training and Work Integrated Learning Program:</strong> Selected for this competitive, short-duration pilot that is geared to maximizing the number of underrepresented groups in the cybersecurity workforce</p>
-    </section>
-        <footer>
-            <p>For more information about my educational background, please visit my <a href="https://www.linkedin.com/in/ragaviasokan/">LinkedIn profile</a>.</p>
-    </footer>
-
-    <table class="styled-table">
-        <tr>
-            <td>
-                <div class="link-container">
-                    <a href="#" class="table-link">Link 1 goes here</a>
-                </div>
-            </td>
-            <td>
-                <div class="description-container">
-                    Description of Link 1 goes in this cell
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="link-container">
-                    <a href="#" class="table-link">Link 2 goes here</a>
-                </div>
-            </td>
-            <td>
-                <div class="description-container">
-                    Description of Link 2 goes in this cell
-                </div>
-            </td>
-        </tr>
-    </table>
-
-</body>
-</html>

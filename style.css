@@ -1,5 +1,5 @@
 body {
-font-family: Arial, sans-serif;
+font-family: Arial;
 font-size: 12pt;
 margin: 20px;
 background-color: #a9a9a9e4;
@@ -8,17 +8,17 @@ color: #4c4646;
 /* Heading Styles */
 h1 {
 font-size: 24pt;
-color: #0066cc; /* H1 color */
+color: #2a2b2c; /* H1 color */
 }
 
 h2 {
 font-size: 18pt;
-color: #990000; /* H2 color */
+color: #010769; /* H2 color */
 }
 
 h3 {
 font-size: 16pt;
-color: #336600; /* H3 color */
+color: #1a66b2; /* H3 color */
 }
 
 /* Paragraph Styles */

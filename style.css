@@ -2,7 +2,7 @@ body {
 font-family: Arial;
 font-size: 12pt;
 margin: 20px;
-background-color: #a9a9a9e4;
+background-color: #cccccc;
 color: #4c4646; 
 }
 /* Heading Styles */
@@ -29,14 +29,14 @@ color: #555;
 
 /* Link Styles */
 a {
- color: #0007cc; 
+color: #0007cc; 
 text-decoration: none;
 }
 
 a:hover {
-color:aqua; 
-text-decoration: underline;
+    color: #023f0f;
 }
+
 
 a:visited {
 color: #5a268e; 

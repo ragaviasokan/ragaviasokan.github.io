@@ -35,11 +35,11 @@ text-decoration: none;
 
 a:hover {
 text-decoration: underline;
-color: #0caaf9da; /* Hover color */
+color: #ff0606da; /* Hover color */
 }
 
 a:visited {
-color: #623193; /* Visited link color */
+color: #5a268e; /* Visited link color */
 }
 
 a:active {

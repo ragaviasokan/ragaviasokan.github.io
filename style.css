@@ -34,7 +34,8 @@ text-decoration: none;
 }
 
 a:hover {
-color: #d81e1e;
+color:aqua; 
+text-decoration: underline;
 }
 
 a:visited {

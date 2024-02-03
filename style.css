@@ -29,13 +29,13 @@ color: #555; /* Paragraph color */
 
 /* Link Styles */
 a {
-color: #cc0000; /* Link color */
+color: #0007cc; /* Link color */
 text-decoration: none;
 }
 
 a:hover {
 text-decoration: underline;
-color: #f96b0cda; /* Hover color */
+color: #0caaf9da; /* Hover color */
 }
 
 a:visited {
@@ -43,7 +43,7 @@ color: #623193; /* Visited link color */
 }
 
 a:active {
-color: #990000; /* Active link color */
+color: #023f0f; /* Active link color */
 }
 
 .table,

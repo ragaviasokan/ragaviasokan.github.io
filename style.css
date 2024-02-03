@@ -48,7 +48,7 @@ color: #990000; /* Active link color */
 
 
 .link {
-    float: left;
+    float: right;
     border: 1px solid #000;
 }
 

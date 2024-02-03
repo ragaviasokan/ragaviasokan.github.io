@@ -8,50 +8,46 @@ color: #4c4646;
 /* Heading Styles */
 h1 {
 font-size: 30pt;
-color: #d81e1e; /* H1 color */
+color: #d81e1e; 
 }
 
 h2 {
 font-size: 22pt;
-color: #010769; /* H2 color */
+color: #010769; 
 }
 
 h3 {
 font-size: 16pt;
-color: #1a66b2; /* H3 color */
+color: #1a66b2; 
 }
 
 /* Paragraph Styles */
 p {
 font-size: 12pt;
-color: #555; /* Paragraph color */
+color: #555; 
 }
 
 /* Link Styles */
 a {
-color: #0007cc; /* Link color */
+color: #0007cc; 
 text-decoration: none;
 }
 
 a:hover {
 text-decoration: underline;
-color: #ff0606da; /* Hover color */
+color: #ff0606da; 
 }
 
 a:visited {
-color: #5a268e; /* Visited link color */
+color: #5a268e; 
 }
 
 a:active {
-color: #023f0f; /* Active link color */
+color: #023f0f;
 }
 
 .table,
     th,
     td{
         border: 3px solid black;
-    }
-
-
-    
-    
+    }   

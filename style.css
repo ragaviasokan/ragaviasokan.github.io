@@ -34,9 +34,9 @@ text-decoration: none;
 }
 
 a:hover {
-    color: #ff3300; /* Red for hover effect */
+columns: red; 
+text-decoration: underline;
 }
-
 
 a:visited {
 color: #5a268e; 

@@ -52,6 +52,6 @@ color: #990000; /* Active link color */
 }
 
 .text {
-    float: inline-end;
+    float: right;
     border: 1px solid #000;
 }

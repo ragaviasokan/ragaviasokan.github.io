@@ -47,11 +47,11 @@ color: #990000; /* Active link color */
 }
 
 .link {
-    float: inline-start;
+    float: inline-start, left;
     border: 1px solid #000;
 }
 
 .text {
-    float: inherit;
+    float: inline-end,right;
     border: 1px solid #000;
 }

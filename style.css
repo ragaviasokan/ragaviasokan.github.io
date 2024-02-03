@@ -47,12 +47,8 @@ color: #990000; /* Active link color */
 }
 
 
-.link {
-    float: left;
-    border: 1px solid #000;
-}
-
-.text {
-    float: left;
-    border: 1px solid #000;
+Table,
+th,
+td{
+    border:3px solid black;
 }

@@ -46,9 +46,12 @@ a:active {
 color: #990000; /* Active link color */
 }
 
+.link {
+    float: inline-start;
+    border: 1px solid #000;
+}
 
-Table,
-th,
-td{
-    border:3px solid black;
+.text {
+    float: inline-end;
+    border: 1px solid #000;
 }

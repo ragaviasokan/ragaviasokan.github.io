@@ -5,8 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Education</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+
+    <!-- Your existing HTML content -->
+
+    <!-- a. Prompt for User Name -->
+    <button onclick="promptForName()">Enter Your Name</button>
+    <p id="welcome-message">Welcome!</p>
+
+    <!-- b. Clickable Image -->
+    <img id="my-image" src="subdirectory/my-image.jpg" alt="Your Image" onclick="enlargeImage()">
+
+    <!-- c. Customized Navigation Menu -->
+    <nav>
+        <ul>
+            <li onmouseover="changeColorOnHover(this, '#ff6600')" onmouseout="resetColorOnOut(this)" onclick="navigateToPage('page1.html')">Menu Item 1</li>
+            <li onmouseover="changeColorOnHover(this, '#ff6600')" onmouseout="resetColorOnOut(this)" onclick="navigateToPage('page2.html')">Menu Item 2</li>
+            <li onmouseover="changeColorOnHover(this, '#ff6600')" onmouseout="resetColorOnOut(this)" onclick="navigateToPage('page3.html')">Menu Item 3</li>
+        </ul>
+    </nav>
+
+    <!-- Your existing HTML content -->
+
+</body>
+</html> 
+
 
     <header>
         <h1><strong>RAGAVI ASOKAN</strong></h1>

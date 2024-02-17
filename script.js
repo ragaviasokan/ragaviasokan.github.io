@@ -11,7 +11,7 @@ function promptForName() {
 // b. Enlarge Image on Click
 function enlargeImage() {
     var image = document.getElementById("my-image");
-    image.style.width = "100px"; // Adjust the size as needed
+    image.style.width = "50px"; // Adjust the size as needed
 }
 
 // c. Customized Navigation Menu

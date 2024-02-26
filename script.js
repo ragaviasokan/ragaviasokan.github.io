@@ -17,7 +17,6 @@ function enlargeImage() {
 // c. Customized Navigation Menu
 function navigateToPage(page) {
     alert("Navigating to " + page);
-    // You can implement actual navigation logic here
 }
 
 // d. Onmouseover/Onmouseout Event for Nav Items

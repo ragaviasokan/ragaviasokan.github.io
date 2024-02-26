@@ -52,19 +52,3 @@ color: #023f0f;
         border: 3px solid black;
     } 
 
-body.html{height: 100%}
-nav{
-    background-color: #f79F79;
-    position: absolute;
-    width:150px;
-    height: 100%;
-}
-nav a{
-    padding: 15px;
-    display: block;
-    font-size: 25pt;
-    color: #58355E;
-}
-Nav a:hover{
-    color: #f1f1f1;
-}

@@ -45,3 +45,21 @@ function myFunction() {
     }
     }
     }
+
+    // script.js
+function submitForm() {
+    // Store data in local storage (customize this based on your form elements)
+    var formData = {
+        name: document.getElementById("name").value,
+        gender: document.querySelector('input[name="gender"]:checked').value,
+        interests: Array.from(document.querySelectorAll('input[name="interest"]:checked')).map(item => item.value),
+        message: document.getElementById("message").value
+    };
+
+    localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+function clearForm() {
+    // Clear all input fields
+    document.getElementById("user-form").reset();
+}

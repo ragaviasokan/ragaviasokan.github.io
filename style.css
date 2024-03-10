@@ -95,3 +95,53 @@ nav ul li{
     /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks
     on the dropdown button) */
     .show {display:block;}
+
+    
+    #contact-form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f8f8f8;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    
+    textarea {
+        resize: vertical; /* Allow vertical resizing of textarea */
+    }
+    
+    fieldset {
+        margin-bottom: 15px;
+    }
+    
+    .form-buttons {
+        text-align: right;
+    }
+    
+    button {
+        padding: 10px 15px;
+        margin-left: 10px;
+        cursor: pointer;
+        background-color: #0066cc;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    button:hover {
+        background-color: #004080;
+    }
+    
+    /* Add more styles based on your design preferences */

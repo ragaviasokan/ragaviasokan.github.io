@@ -2,7 +2,7 @@ body {
 font-family: sans-serif;
 font-size: 12pt;
 margin: 20px;
-background-color: #fefefe96;
+background-color: #c2d6f7;
 color: #4c4646; 
 }
 /* Heading Styles */
@@ -53,7 +53,7 @@ color: #023f0f;
     } 
 
 nav{
-    background-color: #c2d6f7;
+    background-color: #b1bcf1a7;
     height: 88px;
     width: 100%
 }

@@ -12,12 +12,12 @@ color: #373737;
 }
 
 h2 {
-font-size: 22pt;
+font-size: 30pt;
 color: #010769; 
 }
 
 h3 {
-font-size: 16pt;
+font-size: 20pt;
 color: #1a66b2; 
 }
 
@@ -35,7 +35,7 @@ text-decoration: none;
 }
 
 a:hover {
-columns: red; 
+columns: rgb(255, 255, 255); 
 text-decoration: underline;
 }
 

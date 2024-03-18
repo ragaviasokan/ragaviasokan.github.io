@@ -32,6 +32,7 @@ line-height: 2;
 a {
 color: #0007cc; 
 text-decoration: none;
+font-size: 15pt;
 }
 
 a:hover {
@@ -147,3 +148,6 @@ nav ul li{
     
     /* Add more styles based on your design preferences */
 
+    changeColorOnHover {
+        color: #ffffff;
+    }

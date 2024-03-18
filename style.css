@@ -54,7 +54,7 @@ color: #023f0f;
 
 nav{
     background-color: #90909086;
-    height: 88px;
+    height: 100px;
     width: 100%
 }
 
@@ -146,6 +146,3 @@ nav ul li{
     
     /* Add more styles based on your design preferences */
 
-    enlargeImage{
-        style="float:right";
-    }

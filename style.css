@@ -143,8 +143,44 @@ nav ul li{
     }
     
     button:hover {
-        background-color: #004080;
+        background-color: #004080; 
     }
     
     /* Add more styles based on your design preferences */
 
+
+    .timeline {
+        list-style: none;
+        padding: 0;
+        margin: 40px auto;
+        max-width: 800px;
+    }
+
+    .timeline-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .timeline-item::after {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: #333;
+        border-radius: 50%;
+    }
+
+    .timeline-item:last-child::after {
+        display: none;
+    }
+
+    .timeline-date {
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    .timeline-content {
+        max-width: 70%;
+    }

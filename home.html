@@ -20,19 +20,26 @@
 
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa; /* Light gray background */
-            color: #333; /* Dark text color */
+            font-family: 'Roboto', sans-serif;
+            background-color: #f2f5f9;
+            color: #333;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
 
         header {
-            background-color: #343a40; /* Dark gray header background */
-            color: #fff; /* White text color */
-            padding: 20px;
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
             text-align: center;
-            margin-bottom: 20px;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: bold;
         }
 
         nav ul {
@@ -40,6 +47,10 @@
             padding: 0;
             margin: 0;
             text-align: center;
+            background-color: #343a40;
+            border-top: 4px solid #007bff;
+            border-bottom: 4px solid #007bff;
+            padding: 10px 0;
         }
 
         nav ul li {
@@ -49,27 +60,64 @@
 
         nav ul li a {
             text-decoration: none;
-            color: #333; /* Dark text color */
+            color: #fff;
+            font-size: 1.2em;
             transition: color 0.3s ease;
         }
 
         nav ul li a:hover {
-            color: #007bff; /* Blue on hover */
+            color: #007bff;
         }
 
         .content {
             padding: 20px;
             max-width: 800px;
             margin: 0 auto;
-            background-color: #fff; /* White background */
+            background-color: #fff;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .content img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.1em;
+        }
+
+        .content ul {
+            padding-left: 20px;
+        }
+
+        .content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .content table th,
+        .content table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .content table th {
+            background-color: #f2f2f2;
         }
 
         footer {
-            background-color: #343a40; /* Dark gray footer background */
-            color: #fff; /* White text color */
-            padding: 20px;
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
             text-align: center;
             margin-top: 20px;
         }
@@ -93,18 +141,52 @@
         }
 
         .dropdown-content a {
-            color: #333; /* Dark text color */
+            color: #333;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
+            transition: background-color 0.3s ease;
         }
 
         .dropdown-content a:hover {
-            background-color: #f1f1f1; /* Light gray on hover */
+            background-color: #f1f1f1;
         }
 
         .dropdown:hover .dropdown-content {
             display: block;
+        }
+
+        .floating-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .floating-btn:hover {
+            background-color: #0056b3;
+        }
+
+        @media screen and (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 0;
+                text-align: center;
+            }
+
+            nav ul li a {
+                display: block;
+                margin: 10px 0;
+            }
         }
     </style>
 </head>
@@ -124,37 +206,24 @@
 </nav>
 
 <div class="content">
-    <button onclick="promptForName()">Enter Your Name</button>
-    <p id="welcome-message">Welcome!</p>
-
-    <img id="my-image" src="subdirectory/my-image.jpg" alt="Headshot image of Ragavi Asokan">
-    <p>Hello! My name is Ragavi Asokan and I am 22 years old. I am pursuing my bachelor's degree in Business Technology Management at Toronto Metropolitan University. I am currently looking for new grad employment opportunities in the data sector.</p>
-
-    <p>Some skills I obtained from my previous work experience are:</p>
-    <ul>
-        <li>Analytical Skills</li>
-        <li>Data Analysis</li>
-        <li>Problem Solving</li>
-        <li>Microsoft Power BI</li>
-        <li>Microsoft Power Automate</li>
-    </ul>
-
-    <div>
-        <table>
-            <tr>
-                <th>Link</th>
-                <th>Description</th>
-            </tr>
-            <tr>
-                <td><a href="https://www.linkedin.com/in/ragaviasokan/">LinkedIn Profile</a></td>
-                <td>This page will look into my professional experience, certificates that I have received, and extra-curricular activities I have participated in.</td>
-            </tr>
-            <tr>
-                <td><a href="https://ayaanmemon.wixsite.com/my-site-1">Dine2Go</a></td>
-                <td>An e-commerce website about student meal plans created in my Advanced E-commerce course.</td>
-            </tr>
-        </table>
-    </div>
+    <img src="subdirectory/my-image.jpg" alt="Ragavi Asokan" width="200">
+    <p>Hello!</p>
+    <p>My name is Ragavi Asokan, and I'm a 22-year-old student at Toronto Metropolitan University, pursuing a Bachelor of Commerce degree in Business Technology Management.</p>
+    <p>I'm currently seeking new graduate employment opportunities in the data sector. Some skills I've obtained from my previous work experience include analytical skills, data analysis, problem-solving, Microsoft Power BI, and Microsoft Power Automate.</p>
+    <table>
+        <tr>
+            <th>Link</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><a href="https://www.linkedin.com/in/ragaviasokan/">LinkedIn Profile</a></td>
+            <td>This page will look into my professional experience, certificates that I have received, and extra-curricular activities I have participated in.</td>
+        </tr>
+        <tr>
+            <td><a href="https://ayaanmemon.wixsite.com/my-site-1">Dine2Go</a></td>
+            <td>An e-commerce website about student meal plans created in my Advanced E-commerce course.</td>
+        </tr>
+    </table>
 </div>
 
 <footer>
@@ -165,16 +234,7 @@
             <option value="1rem">Medium</option>
             <option value="2rem">Large</option>
         </select>
-
-        <label for="colorScheme">Change Color Scheme for Color Blindness:</label>
-        <select id="colorScheme">
-            <option value="normal">Normal</option>
-            <option value="protanopia">Protanopia</option>
-            <option value="deuteranopia">Deuteranopia</option>
-            <option value="tritanopia">Tritanopia</option>
-        </select>
     </div>
-
     <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">Contact</button>
         <div id="myDropdown" class="dropdown-content">
@@ -182,6 +242,7 @@
             <a href="tel:+123456780">Phone Number</a>
         </div>
     </div>
+    <button class="floating-btn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">&#8679;</button>
 </footer>
 
 </body>

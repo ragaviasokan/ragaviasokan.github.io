@@ -94,25 +94,3 @@ function clearForm() {
     }
   });
 
-
-<script>
-    // Function to change font size
-    function changeFontSize(size) {
-        document.body.style.fontSize = size;
-    }
-
-    // Function to change color scheme for color blindness
-    function changeColorScheme(scheme) {
-        // Implement logic to change color scheme based on selected option
-    }
-
-    // Function to toggle contact dropdown
-    function toggleDropdown() {
-        document.getElementById("myDropdown").classList.toggle("show");
-    }
-
-    // Close the dropdown if the user clicks outside of it
-    window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            for (var i = 0; i < dropdowns.length; i

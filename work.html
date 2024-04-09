@@ -32,7 +32,62 @@
     <h2>Work Experience</h2>
 
 </section>
+.timeline {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto;
+    max-width: 800px;
+}
 
+.timeline-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.timeline-item::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+}
+
+.timeline-item:last-child::after {
+    display: none;
+}
+
+.timeline-date {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.timeline-content {
+    max-width: 70%;
+}
+</style>
+</head>
+<body>
+
+<ul class="timeline">
+<li class="timeline-item">
+<div class="timeline-date">2019 - 2020</div>
+<div class="timeline-content">
+    <h3>Internship at Company X</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at felis id velit interdum varius.</p>
+</div>
+</li>
+<li class="timeline-item">
+<div class="timeline-date">2018 - 2019</div>
+<div class="timeline-content">
+    <h3>Part-time job at Company Y</h3>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+</div>
+</li>
+<!-- Add more timeline items as needed -->
+</ul>
 
 
 

@@ -118,7 +118,26 @@
   
   </div>
 
+<br>
 
+ <!-- Font Size Adjustment -->
+ <label for="fontSize">Change Font Size:</label>
+ <select id="fontSize" onchange="changeFontSize(this.value)">
+     <option value="0.75rem">Small</option>
+     <option value="1rem">Medium</option>
+     <option value="2rem">Large</option>
+ </select>
+
+ <!-- Color Scheme Adjustment -->
+ <label for="colorScheme">Change Color Scheme for Color Blindness:</label>
+ <select id="colorScheme" onchange="changeColorScheme(this.value)">
+     <option value="normal">Normal</option>
+     <option value="protanopia">Protanopia</option>
+     <option value="deuteranopia">Deuteranopia</option>
+     <option value="tritanopia">Tritanopia</option>
+ </select>
+
+ 
 
   <div class="dropdown">
     <!-- Dropdown button -->
